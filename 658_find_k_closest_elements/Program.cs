@@ -11,15 +11,15 @@
             Console.WriteLine(String.Join(',', res));
         }
 
-        private static List<int> FindKClosest(int[] ints, int k, int x)
+        private static List<int> FindKClosest(int[] arr, int k, int x)
         {
             var result = new List<int>();
             int left = 0;
-            int right = ints.Length - 1;
+            int right = arr.Length - 1;
             while (left < right)
             {
                 int mid = (left + right) / 2;
-                if (ints[mid] >= x)
+                if (arr[mid] >= x)
                     right = mid;
                 else
                     left = mid + 1;
@@ -34,19 +34,19 @@
                     right++;
                     continue;
                 }
-                if (right == ints.Length)
+                if (right == arr.Length)
                 {
                     left--;
                     continue;
                 }
-                if (Math.Abs(ints[left] - x) <= Math.Abs(ints[right] - x))
+                if (Math.Abs(arr[left] - x) <= Math.Abs(arr[right] - x))
                     left--;
                 else
                     right++;
             }
 
             for (int i = left + 1; i < right; i++)
-                result.Add(ints[i]);
+                result.Add(arr[i]);
 
             return result;
         }

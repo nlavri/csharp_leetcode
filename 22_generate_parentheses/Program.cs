@@ -2,14 +2,14 @@
 
 void Generate(string str, int opened, int closed, int n)
 {
-    if (str.Length == 2*n)
+    if (str.Length == 2 * n)
     {
         Console.WriteLine(str);
         return;
     }
     if (opened < n)
         Generate(str + "(", opened + 1, closed, n);
-    if(closed < opened)
+    if (closed < opened)
         Generate(str + ")", opened, closed + 1, n);
 
 }
