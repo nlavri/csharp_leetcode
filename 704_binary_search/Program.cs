@@ -26,7 +26,7 @@
             }
             return -1;
         }
-        
+
         static void Main(string[] args)
         {
 
@@ -38,6 +38,7 @@
 
             //0
             Console.WriteLine(Search(new int[] { 5 }, 5));
+            Console.WriteLine(Search(new int[] { 1, 3 }, 3));
 
             Console.WriteLine(Math.Pow(10, 4));
             Console.WriteLine(Math.Pow(2, 31) - 1);
