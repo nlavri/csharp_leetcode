@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        static void TwoSum(int[] nums, int i, IList<IList<int>> result)
+        static void TwoSum2(int[] nums, int i, IList<IList<int>> result)
         {
             var l = i + 1;
             var h = nums.Length - 1;
@@ -21,6 +21,23 @@
                     h -= 1;
                 else
                     l += 1;
+            }
+        }
+
+        static void TwoSum(int[] nums, int i, IList<IList<int>> result)
+        {
+            var set = new HashSet<int>();
+            for (int j = i + 1; j < nums.Length; j++)
+            {
+                int b = -nums[i] - nums[j];
+                if (set.Contains(b))
+                {
+                    result.Add(new List<int> { nums[i], nums[j], b });
+                    while (j + 1 < nums.Length && nums[j] == nums[j + 1])
+                        j++;
+                }
+                else
+                    set.Add(nums[j]);
             }
         }
 

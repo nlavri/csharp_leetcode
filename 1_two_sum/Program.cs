@@ -49,7 +49,11 @@
             Console.WriteLine(String.Join(',', TwoSum2(new[] { 3, 2, 4 }, 6)));
             Console.WriteLine(String.Join(',', TwoSum2(new[] { 3, 3 }, 6)));
 
-            IList<IList<int>> result = new List<IList<int>>();
+            //IList<IList<int>> result = new List<IList<int>>();
+
+            IList<IList<int>> result = null;
+            result ??= new List<IList<int>>();
+            
         }
     }
 }
