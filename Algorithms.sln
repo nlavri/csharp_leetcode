@@ -33,23 +33,33 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "81_search_rotated_sorted_ar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "136_single_number", "136_single_number\136_single_number.csproj", "{F79D95DD-F577-4742-B06F-ACAB5F44CB05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_two_sum", "1_two_sum\1_two_sum.csproj", "{D53DC218-93B7-41F8-AA2A-4957E93C6635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_two_sum", "1_two_sum\1_two_sum.csproj", "{D53DC218-93B7-41F8-AA2A-4957E93C6635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_3sum", "15_3sum\15_3sum.csproj", "{DA422197-DE7D-4A54-8790-2F0262009505}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_3sum", "15_3sum\15_3sum.csproj", "{DA422197-DE7D-4A54-8790-2F0262009505}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_valid_parentheses", "20_valid_parentheses\20_valid_parentheses.csproj", "{64FDAC6E-28F7-4FD8-ACB6-87302A53FD77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "20_valid_parentheses", "20_valid_parentheses\20_valid_parentheses.csproj", "{64FDAC6E-28F7-4FD8-ACB6-87302A53FD77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_4Sum", "18_4Sum\18_4Sum.csproj", "{604FBA91-2A5A-4815-BEAF-EFDA47165415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "18_4Sum", "18_4Sum\18_4Sum.csproj", "{604FBA91-2A5A-4815-BEAF-EFDA47165415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "438_find_all_anagrams_in_string", "438_find_all_anagrams_in_string\438_find_all_anagrams_in_string.csproj", "{07881814-375F-4E86-932F-494F64F36FD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "438_find_all_anagrams_in_string", "438_find_all_anagrams_in_string\438_find_all_anagrams_in_string.csproj", "{07881814-375F-4E86-932F-494F64F36FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "487_max_consecutive_ones_2", "487_max_consecutive_ones_2\487_max_consecutive_ones_2.csproj", "{9B5C5F5C-57AF-4E0A-A856-A31023FE2620}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "487_max_consecutive_ones_2", "487_max_consecutive_ones_2\487_max_consecutive_ones_2.csproj", "{9B5C5F5C-57AF-4E0A-A856-A31023FE2620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1004_max_consecutive_ones_3", "1004_max_consecutive_ones_3\1004_max_consecutive_ones_3.csproj", "{B5E77E92-4DAC-4037-8622-A7143404206E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1004_max_consecutive_ones_3", "1004_max_consecutive_ones_3\1004_max_consecutive_ones_3.csproj", "{B5E77E92-4DAC-4037-8622-A7143404206E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "104_maximum_depth_of_binary_tree", "104_maximum_depth_of_binary_tree\104_maximum_depth_of_binary_tree.csproj", "{FAFC5A7F-8F41-4724-830D-92AADA3A476E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "104_maximum_depth_of_binary_tree", "104_maximum_depth_of_binary_tree\104_maximum_depth_of_binary_tree.csproj", "{FAFC5A7F-8F41-4724-830D-92AADA3A476E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heap", "heap\heap.csproj", "{8B0821D5-D1DE-458C-87D8-355C954CB6AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "heap", "heap\heap.csproj", "{8B0821D5-D1DE-458C-87D8-355C954CB6AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "200_number_of_islands", "200_number_of_islands\200_number_of_islands.csproj", "{D2E5D406-CF5D-404C-8A2C-8221615198C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "56_merge_intervals", "56_merge_intervals\56_merge_intervals.csproj", "{C9E39145-B36C-4676-9768-904CDFD0BB80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "166_fraction_to_recurring_decimal", "166_fraction_to_recurring_decimal\166_fraction_to_recurring_decimal.csproj", "{CB22D916-CCF4-458F-8E3C-55B8AFB6E87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "347_top_k_frequent_elements", "347_top_k_frequent_elements\347_top_k_frequent_elements.csproj", "{8346CA7F-1827-4AF1-8842-114702C9DC36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "692_top_k_frequent_words", "692_top_k_frequent_words\692_top_k_frequent_words.csproj", "{086EF1E5-658D-4456-AD5C-D7A59CFAA668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +163,26 @@ Global
 		{8B0821D5-D1DE-458C-87D8-355C954CB6AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B0821D5-D1DE-458C-87D8-355C954CB6AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B0821D5-D1DE-458C-87D8-355C954CB6AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E5D406-CF5D-404C-8A2C-8221615198C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E5D406-CF5D-404C-8A2C-8221615198C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E5D406-CF5D-404C-8A2C-8221615198C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E5D406-CF5D-404C-8A2C-8221615198C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E39145-B36C-4676-9768-904CDFD0BB80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E39145-B36C-4676-9768-904CDFD0BB80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E39145-B36C-4676-9768-904CDFD0BB80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E39145-B36C-4676-9768-904CDFD0BB80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB22D916-CCF4-458F-8E3C-55B8AFB6E87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB22D916-CCF4-458F-8E3C-55B8AFB6E87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB22D916-CCF4-458F-8E3C-55B8AFB6E87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB22D916-CCF4-458F-8E3C-55B8AFB6E87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8346CA7F-1827-4AF1-8842-114702C9DC36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8346CA7F-1827-4AF1-8842-114702C9DC36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8346CA7F-1827-4AF1-8842-114702C9DC36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8346CA7F-1827-4AF1-8842-114702C9DC36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086EF1E5-658D-4456-AD5C-D7A59CFAA668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086EF1E5-658D-4456-AD5C-D7A59CFAA668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086EF1E5-658D-4456-AD5C-D7A59CFAA668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086EF1E5-658D-4456-AD5C-D7A59CFAA668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
