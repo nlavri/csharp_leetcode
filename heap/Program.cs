@@ -129,6 +129,7 @@
             Console.WriteLine("Peek " + heap.Peek());
             Console.WriteLine("ExtractMin " + heap.ExtractMin());
             Console.WriteLine("Peek " + heap.Peek());
+
         }
     }
 }
