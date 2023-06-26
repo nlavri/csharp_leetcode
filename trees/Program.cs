@@ -36,6 +36,23 @@
                 }
             }
         }
+        static void StackTraversal2(Node root)
+        {
+            var stack = new Stack<Node>();
+            stack.Push(root);
+            while (stack.Count > 0)
+            {
+                var current = stack.Pop();
+                
+                Console.Write(current.Value + " ");
+
+                if (current.Right != null)
+                    stack.Push(current.Right);
+
+                if (current.Left != null)
+                    stack.Push(current.Left);
+            }
+        }
 
         static void QueueTraversal(Node root)
         {
@@ -115,6 +132,8 @@
             root.Right.Right = new Node(6);
             StackTraversal(root);
             Console.WriteLine("\r\n____________________");
+            StackTraversal2(root);
+            Console.WriteLine("\r\n____________________");
             DfsInorder(root);
             Console.WriteLine("\r\n____________________");
             Console.WriteLine(TreeHeight(root));
@@ -122,10 +141,6 @@
             BfsInorder(root);
             Console.WriteLine("\r\n____________________");
             QueueTraversal(root);
-
-            var s = new HashSet<Node>();
-            s.Add(root);
-            s.Add(root);
         }
     }
 }

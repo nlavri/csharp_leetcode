@@ -77,7 +77,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "100_same_tree", "100_same_t
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "480_sliding_window_median", "480_sliding_window_median\480_sliding_window_median.csproj", "{9DAD8AB0-76E3-4491-A9B5-E89EEF829F16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "101_symmetric_tree", "101_symmetric_tree\101_symmetric_tree.csproj", "{3F9B51F4-263F-428A-86F9-1342E7933084}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "101_symmetric_tree", "101_symmetric_tree\101_symmetric_tree.csproj", "{3F9B51F4-263F-428A-86F9-1342E7933084}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "113_path_sum_2", "113_path_sum_2\113_path_sum_2.csproj", "{DA2839BD-0E8C-413E-9DFD-6F24B96D11A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "121_best_time_to_buy_and_sell_stock", "121_best_time_to_buy_and_sell_stock\121_best_time_to_buy_and_sell_stock.csproj", "{75DC3A72-BEA4-4E62-84A7-D72DA0011BE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "122_best_time_to_buy_and_sell_stock_2", "122_best_time_to_buy_and_sell_stock_2\122_best_time_to_buy_and_sell_stock_2.csproj", "{1FB48406-7E63-4F5B-95D7-66006D6C423E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "714_best_time_to_buy_sell_stock_with_transaction_fee", "714_best_time_to_buy_sell_stock_with_transaction_fee\714_best_time_to_buy_sell_stock_with_transaction_fee.csproj", "{D673FA93-1905-4D54-B37B-A71370A199A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +245,22 @@ Global
 		{3F9B51F4-263F-428A-86F9-1342E7933084}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F9B51F4-263F-428A-86F9-1342E7933084}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F9B51F4-263F-428A-86F9-1342E7933084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2839BD-0E8C-413E-9DFD-6F24B96D11A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2839BD-0E8C-413E-9DFD-6F24B96D11A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2839BD-0E8C-413E-9DFD-6F24B96D11A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2839BD-0E8C-413E-9DFD-6F24B96D11A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DC3A72-BEA4-4E62-84A7-D72DA0011BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DC3A72-BEA4-4E62-84A7-D72DA0011BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DC3A72-BEA4-4E62-84A7-D72DA0011BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DC3A72-BEA4-4E62-84A7-D72DA0011BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FB48406-7E63-4F5B-95D7-66006D6C423E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB48406-7E63-4F5B-95D7-66006D6C423E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB48406-7E63-4F5B-95D7-66006D6C423E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB48406-7E63-4F5B-95D7-66006D6C423E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D673FA93-1905-4D54-B37B-A71370A199A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D673FA93-1905-4D54-B37B-A71370A199A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D673FA93-1905-4D54-B37B-A71370A199A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D673FA93-1905-4D54-B37B-A71370A199A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
