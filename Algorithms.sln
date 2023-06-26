@@ -85,7 +85,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "121_best_time_to_buy_and_se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "122_best_time_to_buy_and_sell_stock_2", "122_best_time_to_buy_and_sell_stock_2\122_best_time_to_buy_and_sell_stock_2.csproj", "{1FB48406-7E63-4F5B-95D7-66006D6C423E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "714_best_time_to_buy_sell_stock_with_transaction_fee", "714_best_time_to_buy_sell_stock_with_transaction_fee\714_best_time_to_buy_sell_stock_with_transaction_fee.csproj", "{D673FA93-1905-4D54-B37B-A71370A199A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "714_best_time_to_buy_sell_stock_with_transaction_fee", "714_best_time_to_buy_sell_stock_with_transaction_fee\714_best_time_to_buy_sell_stock_with_transaction_fee.csproj", "{D673FA93-1905-4D54-B37B-A71370A199A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "283_move_zeroes", "283_move_zeroes\283_move_zeroes.csproj", "{B847F6B7-C518-46FF-9127-08F374F1114A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1051_height_checker", "1051_height_checker\1051_height_checker.csproj", "{9E795332-2A05-47AB-869B-171B1A8E82EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "98_validate_binary_search_tree", "98_validate_binary_search_tree\98_validate_binary_search_tree.csproj", "{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +267,18 @@ Global
 		{D673FA93-1905-4D54-B37B-A71370A199A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D673FA93-1905-4D54-B37B-A71370A199A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D673FA93-1905-4D54-B37B-A71370A199A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B847F6B7-C518-46FF-9127-08F374F1114A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B847F6B7-C518-46FF-9127-08F374F1114A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B847F6B7-C518-46FF-9127-08F374F1114A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B847F6B7-C518-46FF-9127-08F374F1114A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E795332-2A05-47AB-869B-171B1A8E82EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E795332-2A05-47AB-869B-171B1A8E82EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E795332-2A05-47AB-869B-171B1A8E82EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E795332-2A05-47AB-869B-171B1A8E82EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

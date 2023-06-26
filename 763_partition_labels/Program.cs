@@ -45,7 +45,7 @@
 
             Console.WriteLine(Environment.NewLine + "===============");
 
-            result = PartitionLabels("eccecbbbbd");
+            result = PartitionLabels("eccbbbbd");
             foreach (var i in result)
                 Console.Write(i + ",");
         }

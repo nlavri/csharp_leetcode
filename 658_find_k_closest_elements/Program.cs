@@ -9,6 +9,9 @@
 
             res = FindKClosest(new[] { 1, 2, 3, 4, 5, 7, 8, 9 }, 5, 6);
             Console.WriteLine(String.Join(',', res));
+
+            res = FindKClosest(new[] { 1, 2, 3, 4, 5 }, 4, 3);
+            Console.WriteLine(String.Join(',', res));
         }
 
         private static List<int> FindKClosest(int[] arr, int k, int x)
