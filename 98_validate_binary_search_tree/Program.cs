@@ -59,6 +59,8 @@
 
             TreeNode prev = null;
             Console.WriteLine(IsValid2(tree, ref prev));
+
+
         }
     }
 }

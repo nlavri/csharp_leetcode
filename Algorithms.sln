@@ -87,11 +87,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "122_best_time_to_buy_and_se
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "714_best_time_to_buy_sell_stock_with_transaction_fee", "714_best_time_to_buy_sell_stock_with_transaction_fee\714_best_time_to_buy_sell_stock_with_transaction_fee.csproj", "{D673FA93-1905-4D54-B37B-A71370A199A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "283_move_zeroes", "283_move_zeroes\283_move_zeroes.csproj", "{B847F6B7-C518-46FF-9127-08F374F1114A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "283_move_zeroes", "283_move_zeroes\283_move_zeroes.csproj", "{B847F6B7-C518-46FF-9127-08F374F1114A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1051_height_checker", "1051_height_checker\1051_height_checker.csproj", "{9E795332-2A05-47AB-869B-171B1A8E82EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1051_height_checker", "1051_height_checker\1051_height_checker.csproj", "{9E795332-2A05-47AB-869B-171B1A8E82EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "98_validate_binary_search_tree", "98_validate_binary_search_tree\98_validate_binary_search_tree.csproj", "{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "98_validate_binary_search_tree", "98_validate_binary_search_tree\98_validate_binary_search_tree.csproj", "{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "135_candy", "135_candy\135_candy.csproj", "{86DFFE30-59F9-48E2-8EBE-2532D2F6EE4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +281,10 @@ Global
 		{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D6541BC-3CAD-4C60-B560-1A4F2A043B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DFFE30-59F9-48E2-8EBE-2532D2F6EE4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DFFE30-59F9-48E2-8EBE-2532D2F6EE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DFFE30-59F9-48E2-8EBE-2532D2F6EE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DFFE30-59F9-48E2-8EBE-2532D2F6EE4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
