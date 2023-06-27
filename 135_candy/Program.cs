@@ -1,4 +1,6 @@
-﻿namespace _135_candy
+﻿using System.Text;
+
+namespace _135_candy
 {
     internal class Program
     {
