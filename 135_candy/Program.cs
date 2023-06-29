@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.IO;
+using System.Text;
 
 namespace _135_candy
 {
@@ -29,6 +30,7 @@ namespace _135_candy
             Console.WriteLine(Candy(new int[] { 1, 3, 2, 2, 1 }));//7
 
             Console.WriteLine(Candy(new int[] { 1, 2, 87, 87, 87, 2, 1 }));//13
+
         }
     }
 }
