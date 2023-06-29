@@ -34,11 +34,10 @@
             return maxArea;
         }
         
-        static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             Console.WriteLine(MaxArea(new[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 }));
             Console.WriteLine(MaxArea(new[] { 1, 1 }));
-
         }
     }
 }
