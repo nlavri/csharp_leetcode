@@ -61,7 +61,6 @@ namespace _146_LRU_cache
             Console.WriteLine(cache.Get(1));
             Console.WriteLine(cache.Get(3));
             Console.WriteLine(cache.Get(4));
-            
         }
     }
 }
