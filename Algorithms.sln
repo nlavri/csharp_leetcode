@@ -125,6 +125,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "125_valid_palindrome", "125
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "680_valid_palindrome_2", "680_valid_palindrome_2\680_valid_palindrome_2.csproj", "{F7B33CE2-34D3-4701-BFAD-7210822243AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1493_longest_subarray_of_1_after_deleting_one_element", "1493_longest_subarray_of_1_after_deleting_one_element\1493_longest_subarray_of_1_after_deleting_one_element.csproj", "{B563A69B-BE2D-4A9E-8019-077CD38885E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -375,6 +377,10 @@ Global
 		{F7B33CE2-34D3-4701-BFAD-7210822243AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7B33CE2-34D3-4701-BFAD-7210822243AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7B33CE2-34D3-4701-BFAD-7210822243AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B563A69B-BE2D-4A9E-8019-077CD38885E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B563A69B-BE2D-4A9E-8019-077CD38885E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B563A69B-BE2D-4A9E-8019-077CD38885E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B563A69B-BE2D-4A9E-8019-077CD38885E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

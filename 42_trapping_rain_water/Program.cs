@@ -43,6 +43,11 @@
         {
             Console.WriteLine(Trap(new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 }));
             Console.WriteLine(Trap(new int[] { 4, 2, 0, 3, 2, 5 }));
+
+            var set = new HashSet<int>();
+            foreach(var s in set)
+                Console.WriteLine(s);
+            set.Remove(3);
         }
     }
 }
