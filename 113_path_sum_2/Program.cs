@@ -67,8 +67,8 @@
         {
             var result = new List<IList<int>>();
 
-            Traverse(root, targetSum, result);
-            //Traverse2(root, targetSum, result, new List<int>());
+            //Traverse(root, targetSum, result);
+            Traverse2(root, targetSum, result, new List<int>());
 
             return result;
         }

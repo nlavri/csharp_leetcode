@@ -113,21 +113,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "356_line_reflection", "356_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "42_trapping_rain_water", "42_trapping_rain_water\42_trapping_rain_water.csproj", "{AEA08167-3742-4F0C-81BF-D0CFE4025F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "380_insert_delete_getRandom_O1", "380_insert_delete_getRandom_O1\380_insert_delete_getRandom_O1.csproj", "{FFBCD9FF-F0DE-41C9-ABF2-26F8F51DC977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "380_insert_delete_getRandom_O1", "380_insert_delete_getRandom_O1\380_insert_delete_getRandom_O1.csproj", "{FFBCD9FF-F0DE-41C9-ABF2-26F8F51DC977}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "362_design_hit_counter", "362_design_hit_counter\362_design_hit_counter.csproj", "{BD6B25A5-8B36-41F4-8683-0B146B80324C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "362_design_hit_counter", "362_design_hit_counter\362_design_hit_counter.csproj", "{BD6B25A5-8B36-41F4-8683-0B146B80324C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "567_permutation_in_string", "567_permutation_in_string\567_permutation_in_string.csproj", "{10816D77-BDB7-4320-A904-DD0C2C09215A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "567_permutation_in_string", "567_permutation_in_string\567_permutation_in_string.csproj", "{10816D77-BDB7-4320-A904-DD0C2C09215A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "443_string_compression", "443_string_compression\443_string_compression.csproj", "{7A116868-CA19-4819-B06D-89A45A1EEA87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "443_string_compression", "443_string_compression\443_string_compression.csproj", "{7A116868-CA19-4819-B06D-89A45A1EEA87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "125_valid_palindrome", "125_valid_palindrome\125_valid_palindrome.csproj", "{6B5DC3D5-DB1A-4C21-A4FF-098B313673AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "125_valid_palindrome", "125_valid_palindrome\125_valid_palindrome.csproj", "{6B5DC3D5-DB1A-4C21-A4FF-098B313673AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "680_valid_palindrome_2", "680_valid_palindrome_2\680_valid_palindrome_2.csproj", "{F7B33CE2-34D3-4701-BFAD-7210822243AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "680_valid_palindrome_2", "680_valid_palindrome_2\680_valid_palindrome_2.csproj", "{F7B33CE2-34D3-4701-BFAD-7210822243AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1493_longest_subarray_of_1_after_deleting_one_element", "1493_longest_subarray_of_1_after_deleting_one_element\1493_longest_subarray_of_1_after_deleting_one_element.csproj", "{B563A69B-BE2D-4A9E-8019-077CD38885E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1493_longest_subarray_of_1_after_deleting_one_element", "1493_longest_subarray_of_1_after_deleting_one_element\1493_longest_subarray_of_1_after_deleting_one_element.csproj", "{B563A69B-BE2D-4A9E-8019-077CD38885E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "977_squares_of_sorted_array", "977_squares_of_sorted_array\977_squares_of_sorted_array.csproj", "{AE03D95F-8D38-48EE-8231-15F322614ED4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "977_squares_of_sorted_array", "977_squares_of_sorted_array\977_squares_of_sorted_array.csproj", "{AE03D95F-8D38-48EE-8231-15F322614ED4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "849_maximize_distance_to_closest_person", "849_maximize_distance_to_closest_person\849_maximize_distance_to_closest_person.csproj", "{37A36179-3781-4887-B58D-B73FAB192F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2241_design_an_ATM_machine", "2241_design_an_ATM_machine\2241_design_an_ATM_machine.csproj", "{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -387,6 +391,14 @@ Global
 		{AE03D95F-8D38-48EE-8231-15F322614ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE03D95F-8D38-48EE-8231-15F322614ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE03D95F-8D38-48EE-8231-15F322614ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A36179-3781-4887-B58D-B73FAB192F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A36179-3781-4887-B58D-B73FAB192F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A36179-3781-4887-B58D-B73FAB192F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A36179-3781-4887-B58D-B73FAB192F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

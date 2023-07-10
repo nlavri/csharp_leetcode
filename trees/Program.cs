@@ -73,6 +73,16 @@
             }
         }
 
+        static void DfsPreorder(Node? root)
+        {
+            if (root == null)
+                return;
+
+            Console.Write(root.Value + " ");
+            DfsPreorder(root.Left);
+            DfsPreorder(root.Right);
+        }
+
         static void DfsInorder(Node? root)
         {
             if (root == null)
@@ -81,6 +91,17 @@
             DfsInorder(root.Left);
             Console.Write(root.Value + " ");
             DfsInorder(root.Right);
+        }
+        
+
+        static void DfsPostorder(Node? root)
+        {
+            if (root == null)
+                return;
+
+            DfsPostorder(root.Left);
+            DfsPostorder(root.Right);
+            Console.Write(root.Value + " ");
         }
 
         static int TreeHeight(Node? root)
@@ -134,8 +155,19 @@
             Console.WriteLine("\r\n____________________");
             StackTraversal2(root);
             Console.WriteLine("\r\n____________________");
+            
+            Console.WriteLine("DfsPreorder");
+            DfsPreorder(root);
+            Console.WriteLine("\r\n____________________");
+
+            Console.WriteLine("DfsInorder");
             DfsInorder(root);
             Console.WriteLine("\r\n____________________");
+
+            Console.WriteLine("DfsPostorder");
+            DfsPostorder(root);
+            Console.WriteLine("\r\n____________________");
+
             Console.WriteLine(TreeHeight(root));
             Console.WriteLine("\r\n____________________");
             BfsInorder(root);
