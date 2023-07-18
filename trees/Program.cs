@@ -16,7 +16,7 @@
             }
         }
 
-        static void StackTraversal(Node root)
+        static void StackInorder(Node root)
         {
             var stack = new Stack<Node>();
 
@@ -36,7 +36,8 @@
                 }
             }
         }
-        static void StackTraversal2(Node root)
+        
+        static void StackPreorder(Node root)
         {
             var stack = new Stack<Node>();
             stack.Push(root);
@@ -51,6 +52,27 @@
 
                 if (current.Left != null)
                     stack.Push(current.Left);
+            }
+        }
+        
+        static void StackPostorder(Node root)
+        {
+            var stack = new Stack<Node>();
+
+            var current = root;
+            while (current != null || stack.Count > 0)
+            {
+                if (current != null)
+                {
+                    stack.Push(current);
+                    current = current.Left;
+                }
+                else
+                {
+                    current = stack.Pop();
+                    Console.Write(current.Value + " ");
+                    current = current.Right;
+                }
             }
         }
 
@@ -151,9 +173,17 @@
             root.Left.Right = new Node(5);
             root.Right = new Node(3);
             root.Right.Right = new Node(6);
-            StackTraversal(root);
+
+            Console.WriteLine("StackPreorder");
+            StackPreorder(root);
             Console.WriteLine("\r\n____________________");
-            StackTraversal2(root);
+            
+            Console.WriteLine("StackInorder");
+            StackInorder(root);
+            Console.WriteLine("\r\n____________________");
+            
+            Console.WriteLine("StackPostorder");
+            StackPostorder(root);
             Console.WriteLine("\r\n____________________");
             
             Console.WriteLine("DfsPreorder");
@@ -168,11 +198,22 @@
             DfsPostorder(root);
             Console.WriteLine("\r\n____________________");
 
-            Console.WriteLine(TreeHeight(root));
-            Console.WriteLine("\r\n____________________");
+            Console.WriteLine("BfsInorder");
             BfsInorder(root);
             Console.WriteLine("\r\n____________________");
+
+            Console.WriteLine("QueueTraversal");
             QueueTraversal(root);
+            Console.WriteLine("\r\n____________________");
+
+            Console.WriteLine("TreeHeight");
+            Console.WriteLine(TreeHeight(root));
+            Console.WriteLine("\r\n____________________");
+
+            var l1 = new List<int> { 3, 4 };
+            var l2 = new List<int> { 3, 4 };
+            
+            var set = new HashSet<(int, int)>() { (1, 2), (1, 2) };
         }
     }
 }

@@ -131,7 +131,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "977_squares_of_sorted_array
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "849_maximize_distance_to_closest_person", "849_maximize_distance_to_closest_person\849_maximize_distance_to_closest_person.csproj", "{37A36179-3781-4887-B58D-B73FAB192F50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2241_design_an_ATM_machine", "2241_design_an_ATM_machine\2241_design_an_ATM_machine.csproj", "{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2241_design_an_ATM_machine", "2241_design_an_ATM_machine\2241_design_an_ATM_machine.csproj", "{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "437_path_sum_3", "437_path_sum_3\437_path_sum_3.csproj", "{BC156F06-A9A4-4504-8F23-B07B5A97BD0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "466_reorder_routes_to_lead_to_zero", "466_reorder_routes_to_lead_to_zero\466_reorder_routes_to_lead_to_zero.csproj", "{BFEEF932-247B-46EA-B511-7F67A03E28E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "union_find", "union_find\union_find.csproj", "{606D29C5-3FD4-4D05-8BC0-D5D99DFB9616}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "76_minimum_window_substring", "76_minimum_window_substring\76_minimum_window_substring.csproj", "{AF43E353-E813-49A8-B823-303F9A9C94BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -399,6 +407,22 @@ Global
 		{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1923A56-DAB6-4B4F-B756-03BBB1D15A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC156F06-A9A4-4504-8F23-B07B5A97BD0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC156F06-A9A4-4504-8F23-B07B5A97BD0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC156F06-A9A4-4504-8F23-B07B5A97BD0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC156F06-A9A4-4504-8F23-B07B5A97BD0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFEEF932-247B-46EA-B511-7F67A03E28E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFEEF932-247B-46EA-B511-7F67A03E28E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFEEF932-247B-46EA-B511-7F67A03E28E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFEEF932-247B-46EA-B511-7F67A03E28E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606D29C5-3FD4-4D05-8BC0-D5D99DFB9616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606D29C5-3FD4-4D05-8BC0-D5D99DFB9616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606D29C5-3FD4-4D05-8BC0-D5D99DFB9616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606D29C5-3FD4-4D05-8BC0-D5D99DFB9616}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF43E353-E813-49A8-B823-303F9A9C94BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF43E353-E813-49A8-B823-303F9A9C94BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF43E353-E813-49A8-B823-303F9A9C94BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF43E353-E813-49A8-B823-303F9A9C94BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
